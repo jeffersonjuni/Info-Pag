@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.texto {
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+}
+
+.texto-contracheque {
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    top: -30px;
+}
+
+.texto-cpf {
+    font-size: 32px;
+    text-align: left;
+    position: absolute;
+    top: 25px;
+}
+
+input, button {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    position: absolute;
+    height: 40px;
+    font-size: 20px;
+}
+
+input.matricula {
+    width: 150px;
+    left: 150px;
+    top: 50px;
+}
+
+input.month-input {
+    width: 150px;
+    left: 450px;
+    top: 125px;
+}
+
+input.year-input {
+    width: 150px;
+    left: 650px;
+    top: 125px;
+}
+
+button {
+    cursor: pointer;
+    width: 150px;
+    left: 850px;
+    top: 125px;
+}

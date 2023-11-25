@@ -1,0 +1,161 @@
+/* Contracheque.css */
+body {
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.texto-Dados {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  position: absolute;
+  text-align: left;
+  top: -10px;
+  left: 20px;
+}
+
+
+.texto-cpf {
+  font-family: Arial;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  top: 55px;
+  left: 20px;
+}
+
+.texto-nome {
+  font-family: Arial;
+  font-size: 30px;
+  position: absolute;
+  text-align: left;
+  top: 105px;
+  left: 20px;
+}
+
+.texto-cargo {
+  font-family: Arial;
+  font-size: 30px;
+  position: absolute;
+  text-align: left;
+  top: 155px;
+  left: 20px;
+}
+
+.texto-email {
+  font-family: Arial;
+  font-size: 30px;
+  position: absolute;
+  text-align: left;
+  top: 205px;
+  left: 20px;
+}
+
+.texto-senha {
+  font-family: Arial;
+  font-size: 30px;
+  position: absolute;
+  text-align: left;
+  top: 255px;
+  left: 20px;
+}
+
+
+
+.CPF {
+  font-family: Arial;
+  font-style: normal;
+  width: 225px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 85px;
+  left: 200px;
+  border: 2px solid;
+}
+
+.Nome {
+  font-family: Arial;
+  font-style: normal;
+  width: 225px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 135px;
+  left: 200px;
+  border: 2px solid;
+}
+
+.Cargo {
+  font-family: Arial;
+  font-style: normal;
+  width: 225px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 185px;
+  left: 200px;
+  border: 2px solid;
+}
+
+.Email {
+  font-family: Arial;
+  font-style: normal;
+  width: 225px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 235px;
+  left: 200px;
+  border: 2px solid;
+}
+
+.Senha {
+  font-family: Arial;
+  font-style: normal;
+  width: 225px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 283px;
+  left: 200px;
+  border: 2px solid;
+}
+
+
+.btn {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-family: Arial;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #0F0F33;
+  color: white;
+}
+
+
+.btn-salvar {
+  position: fixed;
+  box-shadow: 0px 0px 4px;
+  box-sizing: border-box;
+  bottom: 20px; /* Posição no canto inferior */
+  right: 20px; /* Posição no canto direito */
+  margin-right: 10px; /* Margem entre os botões */
+}
+
+.btn-cancelar {
+  position: fixed;
+  box-shadow: 0px 0px 4px;
+  box-sizing: border-box;
+  bottom: 20px; /* Posição no canto inferior */
+  right: 250px; /* Ajuste para a posição do segundo botão */
+  margin-right: 10px; /* Margem entre os botões */
+}
+

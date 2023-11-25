@@ -115,36 +115,9 @@ h2 {
   white-space: nowrap;
 }
 
-/* Estilos para o botão "Sair" */
-.btn-sair {
-  background-color: rgb(255, 255, 255);
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  width: 95px;
-  height: 65px;
-  text-align: center; /* Ajuste conforme necessário */
-  position: absolute; /* Tornar o botão absoluto */
-  top: -30px; /* Posição superior */
-  right:70px; /* Posição à direita */
-  
-  
-  
-}
 
-/* Estilo para o ícone dentro do botão "Sair" */
-.btn-sair i{
-  background-color: white;
-  margin-left: 10px; /* Mude para "margin-left" para posicionar o ícone à direita */
-  font-size: 30px;;
-}
-.btn-sair > a{
-    color: #0F0F33;
-    text-decoration: none;
-    font-size: 25px;
-    
-}
+
+
 /* Adicionando hover para os botões*/
 
 .btn-rendimento:hover{   
